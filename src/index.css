@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gutter {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+    background-color: #333;
+    cursor: col-resize;
+}
+
+.gutter.gutter-vertical {
+    background-color: #333;
+    cursor: row-resize;
+}
+
+.cm-editor {
+    height: 100% !important;
+}
+
+.cm-scroller::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.cm-scroller::-webkit-scrollbar-track {
+    background-color: hsl(255, 6%, 13%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cm-scroller::-webkit-scrollbar-thumb {
+    background-color: #fff;
+}
