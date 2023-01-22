@@ -4,7 +4,6 @@ A web-based online HTML text editor builds with Reactjs.
 
 
 ## Features
-- Light/dark mode toggle
 - Live previews
 - Saving Code to local storage
 - Option for downloading the HTML page
